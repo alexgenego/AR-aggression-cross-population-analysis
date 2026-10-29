@@ -210,7 +210,27 @@ tempCodeRunnerFile.py
 
 # PyPI configuration file
 .pypirc
+# Restricted/local research data
+data/
+restricted_data/
+private/
 
+# Potential participant-level research files
+*.sav
+*.dta
+*.por
+
+# Temporary analysis outputs
+outputs/tmp/
+*.tmp
+~$*.xlsx
+~$*.docx
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 # Marimo
 marimo/_static/
 marimo/_lsp/
