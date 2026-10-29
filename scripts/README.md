@@ -25,10 +25,17 @@ The source files are **not** distributed in this public repository because they 
 7. `07_variance_dispersion_skewness.py` — Within- and between-population variance tests plus skewness analyses. Deterministic targets reproduce the frozen analysis; bootstrap quantities are seeded reconstructions.
 8. `08_age_models.py` — Complete Armenian, Hadza, Datoga, and pooled Hadza-Datoga age models. Reproduces S8.
 9. `09_power_analysis.py` — Reproduces S9 power and future-sample-size calculations from the observed HC3 signal-to-noise ratio and noncentral t distribution.
+10. `10_run_full_workflow.py` — Wrapper that runs scripts 01-09 in sequence and stops if any component-level validation fails.
 
 ## Typical execution
 
 From the repository root:
+
+```bash
+python scripts/10_run_full_workflow.py
+```
+
+Individual blocks can also be run separately:
 
 ```bash
 python scripts/01_three_population_shared_loci.py
@@ -42,7 +49,7 @@ python scripts/08_age_models.py
 python scripts/09_power_analysis.py
 ```
 
-Each script writes non-identifying summary CSV files to `outputs/` by default and performs internal reconciliation checks against selected frozen analytical targets.
+Each analysis script writes non-identifying summary CSV files to `outputs/` by default and performs internal reconciliation checks against selected frozen analytical targets.
 
 ## Stochastic analyses
 
