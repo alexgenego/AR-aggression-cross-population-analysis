@@ -58,13 +58,15 @@ The reconstructed workflow was checked with Python 3.13.5 and the package versio
 
 ## Zenodo
 
-A Zenodo release and DOI will be created from the frozen GitHub version used for journal submission. The DOI will be added here and to the manuscript/Supporting Information after release.
+Zenodo DOI: **10.5281/zenodo.23782970**
+
+This DOI is reserved for the frozen `v1.0.0` release used for journal submission and will be registered when the Zenodo record is published.
 
 ## Authors
 
-A.M. Kulikov; P.A. Proshakov; L.A. Revyakina; R.A. Mkrtchyan; M.L. Butovskaya; O.E. Lazebny
+Alexey Kulikov; Prochor Proshakov; Liliya Revyakina; Ruzan Mkrtchyan; Marina Butovskaya; Oleg Lazebny
 
-Corresponding author: **O.E. Lazebny** — o.e.lazebny@idbras.ru
+Corresponding author: **Oleg Lazebny** — o.e.lazebny@idbras.ru
 
 ## License
 
