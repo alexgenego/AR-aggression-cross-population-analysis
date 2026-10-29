@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated article and the archived Zenodo release."
+title: "AR aggression cross-population analysis"
+type: software
+authors:
+  - family-names: "Kulikov"
+    given-names: "Alex M."
+    orcid: "https://orcid.org/0000-0001-6179-6848"
+  - family-names: "Proshakov"
+    given-names: "Prokhor A."
+    orcid: "https://orcid.org/0000-0001-6996-8827"
+  - family-names: "Revyakina"
+    given-names: "Liliya A."
+    orcid: "https://orcid.org/0009-0009-0683-9898"
+  - family-names: "Mkrtchyan"
+    given-names: "Ruzan A."
+    orcid: "https://orcid.org/0000-0003-2809-5972"
+  - family-names: "Butovskaya"
+    given-names: "Marina L."
+    orcid: "https://orcid.org/0000-0002-5528-0519"
+  - family-names: "Lazebny"
+    given-names: "Oleg E."
+    orcid: "https://orcid.org/0000-0003-3136-0415"
+repository-code: "https://github.com/alexgenego/AR-aggression-cross-population-analysis"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-29"
